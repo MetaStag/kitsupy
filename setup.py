@@ -1,19 +1,20 @@
 from setuptools import setup, find_packages
-import pathlib
+from os import path
 
-VERSION = '1.0'
-HERE = pathlib.Path(__file__).parent
-README = (HERE / 'readme.md').read_text()
+VERSION = '1.0.3'
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'readme.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 # Setting up
 setup(
-    name='pykitsu',
+    name='kitsupy',
     version=VERSION,
     author='MetaStag',
     author_email='thegreek132@gmail.com',
     url='https://github.com/MetaStag/Pykitsu',
     description='A simple api wrapper for the kitsu api written in python',
-    long_description=README,
+    long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['requests'],
