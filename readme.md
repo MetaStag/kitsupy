@@ -26,7 +26,7 @@ $ pip install requests
 ```
 
 ### Docs
-The documentation can be found [here]()
+The documentation can be found [here](https://github.com/MetaStag/Pykitsu/wiki)
 
 ### License
 This project can been licensed under the [MIT](https://github.com/MetaStag/Pykitsu/blob/main/LICENSE) license.
