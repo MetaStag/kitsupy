@@ -19,7 +19,6 @@ setup(
     install_requires=['requests'],
     keywords=['python', 'api-wrapper', 'kitsu', 'anime'],
     classifiers=[
-        'Topic :: Software Development :: API',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
