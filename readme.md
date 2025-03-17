@@ -1,3 +1,5 @@
+**[As of March 2025, this project is officially archived, as it has been unmaintained for years, there's no guarantee it will work anymore, proceed at your own risk]**
+
 # kitsupy
 
 kitsupy is a simple api wrapper for the [kitsu](https://kitsu.io/explore/anime) api written in python. It should work without any problems on any reasonably recent version of python.
